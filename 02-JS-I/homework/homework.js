@@ -65,7 +65,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  return x===Y;
+  return x===y;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -133,7 +133,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  var cuadrado = math.pow(num, 2);
+  var cuadrado = Math.pow(num, 2);
   return cuadrado;
   
 }
@@ -156,21 +156,21 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  var redoent = math.round(num);
+  var redoent = Math.round(num);
   return redoent; 
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  var redoarr = math.ceil(num);
+  var redoarr = Math.ceil(num);
   return redoarr;
 }
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  var random = math.random(0,1);
+  var random = Math.random(0,1);
   return random;
 }
 
@@ -182,9 +182,9 @@ function esPositivo(numero) {
   if(numero > 0){
     return "Es positivo";
     }else if (numero < 0){
-      return "Es Negativo";
+      return "Es negativo";
     }  
-       return "false";
+       return false;
      
     }
 
@@ -255,12 +255,12 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length >1){
-    return "Dato Incorrescto";
+    return "Dato incorrecto";
   } else {if (letra =="a" || letra =="e" || letra =="i" || letra =="o" || letra =="u"){;
-  return "Es Vocal";
+  return "Es vocal";
   }
 }
-  return ("Dato Incorrescto") 
+  return ("Dato incorrecto") 
 }
 
 
