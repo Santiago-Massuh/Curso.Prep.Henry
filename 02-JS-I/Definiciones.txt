@@ -1,0 +1,5 @@
+Variables: es un espaccio donde le asignamos a ciertos caracteres un valor específico
+Strings: es un hilo de caracteres definidos
+Funciones (argumentos, return): es la opción para guardar un código que vamos a repetir muchas veces, para llamarla y solo cambiar las variables
+Declaraciones if, es la forma de llegar a ciertos valores a través de una condición.
+Valores booleanos (true, false) son resultados a los que se llega según una operación
